@@ -1,0 +1,32 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Secrets
+.env
+
+# Migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Cache and Testing
+*.swp
+.cache/
+.pytest_cache/
+coverage/
+
+# IDEs and editors
+.vscode/
+.idea/
