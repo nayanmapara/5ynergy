@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 djangorestframework = "*"
 django = "*"
+langchain-google-genai = "*"
 
 [dev-packages]
 
